@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #120018;
+  color: #e9d5ff;
+  line-height: 1.6;
+}
+
+.hero {
+  padding: 90px 20px;
+  text-align: center;
+  background: radial-gradient(circle at top, #4c1d95, #120018);
+}
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 25px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 12px;
+  color: #f5d0fe;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  color: #d8b4fe;
+}
+
+main {
+  max-width: 900px;
+  margin: auto;
+  padding: 50px 20px;
+}
+
+section {
+  margin-bottom: 55px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 18px;
+  border-bottom: 1px solid #6b21a8;
+  padding-bottom: 8px;
+  color: #f5d0fe;
+}
+
+section p {
+  margin-bottom: 15px;
+  color: #e9d5ff;
+}
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+
+ul li {
+  margin-bottom: 8px;
+}
+
+footer {
+  background-color: #0a0010;
+  padding: 35px 20px;
+  text-align: center;
+  border-top: 1px solid #6b21a8;
+}
+
+.footer-links {
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  margin: 0 12px;
+  color: #c084fc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.disclaimer {
+  font-size: 0.9rem;
+  color: #d8b4fe;
+  max-width: 820px;
+  margin: 12px auto;
+}
+
+copyright {
+  font-size: 0.85rem;
+  color: #a78bfa;
+}
