@@ -56,12 +56,10 @@ body {
 }
 
 .hero-logo {
-  width: 260px;
+  width: 300px;
   max-width: none;
   height: auto;
-  opacity: 0.98;
-  filter: drop-shadow(0 0 18px rgba(168, 85, 247, 0.35));
-  transition: transform 0.15s ease-out;
+  filter: drop-shadow(0 0 20px rgba(168, 85, 247, 0.35));
 }
 
 .hero h1 {
@@ -121,6 +119,7 @@ footer {
   color: #c084fc;
   text-decoration: none;
 }
+
 
 
 
